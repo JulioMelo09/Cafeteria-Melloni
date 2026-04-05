@@ -1,0 +1,35 @@
+/* Navbar personalizada */
+.minha-navbar {
+  background-color: #9c6644;
+}
+
+.minha-navbar .nav-link {
+  color: #f5e6d3;
+}
+
+.minha-navbar .navbar-brand {
+  color: #f5e6d3;
+}
+
+.minha-navbar .nav-link:hover {
+  color: #c69c6d;
+}
+
+/* AJUSTES DOS CARDS */
+
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Opcional: Adiciona uma leve sombra para destacar os cards */
+.card {
+    transition: transform 0.2s;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafeteria Melloni</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg minha-navbar shadow-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Cafeteria Melloni </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#cafes">Cafés  <i class="bi bi-cup-hot-fill"></i></i></a></li>
+                    
+                    <li class="nav-item"><a class="nav-link" href="#salgados">Salgados  <i class="bi bi-fork-knife"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#doces">Doces  <i class="bi bi-cake-fill"></i></a></li>
+                </ul>
+                <button class="btn btn-light ms-lg-3">Peça agora</button>
+            </div>
+        </div>
+    </nav>
+
+    <header class="text-center mt-5 pt-5">
+        <h1 class="display-4 fw-bold">Cafeteria Melloni ☕</h1>
+        <p class="lead text-muted">O melhor sabor em cada detalhe.</p>
+    </header>
+
+    <main class="container my-5" id="cafes">
+      
+        <h2 class="text-center mb-4">Nossos Cafés</h2>
+        <div class="row gy-4 justify-content-center">
+            <div class="col-md-3 col-sm-6">
+                <div class="card h-100 shadow-sm text-center">
+                    <img src="imgs/cafe.png" class="card-img-top" alt="Café Expresso">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Café Expresso </h5>
+                        <p class="card-text small text-muted">O clássico em sua forma mais pura. Blend intenso, encorpado e marcante.</p>
+                        <a href="#" class="btn btn-primary mt-auto w-100">Pedir</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card h-100 shadow-sm text-center">
+                    <img src="imgs/capuccino.png" class="card-img-top" alt="Cappuccino">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Cappuccino</h5>
+                        <p class="card-text small text-muted">Equilíbrio perfeito entre expresso e leite vaporizado com espuma aveludada.</p>
+                        <span class="badge text-bg-warning">Mais pedido</span>   <br> 
+                        <a href="#" class="btn btn-primary mt-auto w-100">Pedir</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card h-100 shadow-sm text-center">
+                    <img src="imgs/Cafe-Gelado.jpg" class="card-img-top" alt="Café Gelado">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Café Gelado</h5>
+                        <p class="card-text small text-muted">Energia na medida certa. Café especial sobre gelo, vibrante e refrescante.</p>
+                        <a href="#" class="btn btn-primary mt-auto w-100">Pedir</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card h-100 shadow-sm text-center">
+                    <img src="imgs/frapuccino.png" class="card-img-top" alt="Violet Drink">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Violet Drink</h5>
+                        <p class="card-text small text-muted">Refresco exótico de hibisco, amora e coco. Visual e sabor irresistíveis.</p>
+                        <a href="#" class="btn btn-primary mt-auto w-100">Pedir</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="container my-5" id="salgados">
+        <h2 class="text-center mb-4">Salgados</h2>
+        <div class="row gy-4 justify-content-center">
+            <div class="col-md-3 col-sm-6">
+                <div class="card h-100 shadow-sm text-center">
+                    <img src="imgs/coxinha.jpg" class="card-img-top" alt="Coxinha">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Coxinha</h5>
+                        <p class="card-text small text-muted">Clássica e crocante. Massa dourada com frango desfiado temperado.</p>
+                        <a href="#" class="btn btn-primary mt-auto w-100">Pedir</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card h-100 shadow-sm text-center">
+                    <img src="imgs/croissant.webp" class="card-img-top" alt="Croissant">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Croissant</h5>
+                        <p class="card-text small text-muted">Autêntica massa folhada amanteigada, leve e crocante por fora.</p>
+                         <span class="badge text-bg-warning">Mais pedido</span>   <br> 
+                        <a href="#" class="btn btn-primary mt-auto w-100">Pedir</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card h-100 shadow-sm text-center">
+                    <img src="imgs/empada.avif" class="card-img-top" alt="Empada">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Empada</h5>
+                        <p class="card-text small text-muted">Massa que derrete na boca com recheio generoso e sabor tradicional.</p>
+                        <a href="#" class="btn btn-primary mt-auto w-100">Pedir</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card h-100 shadow-sm text-center">
+                    <img src="imgs/bolinhadequeijo.png" class="card-img-top" alt="Bolinha de Queijo">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Bolinha de Queijo</h5>
+                        <p class="card-text small text-muted">Crocância por fora e queijo derretido por dentro. O petisco perfeito.</p>
+                        <a href="#" class="btn btn-primary mt-auto w-100">Pedir</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container my-5" id="doces">
+        <h2 class="text-center mb-4">Doces</h2>
+        <div class="row gy-4 justify-content-center">
+            <div class="col-md-3 col-sm-6">
+                <div class="card h-100 shadow-sm text-center">
+                    <img src="imgs/waffles.png" class="card-img-top" alt="Waffles">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Waffles</h5>
+                        <p class="card-text small text-muted">Massa leve com chantilly, calda de chocolate e morangos.</p> <span class="badge text-bg-warning">Mais pedido</span>   <br> 
+                        <a href="#" class="btn btn-primary mt-auto w-100">Pedir</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card h-100 shadow-sm text-center">
+                    <img src="imgs/bolodecenoura.png" class="card-img-top" alt="Bolo de Cenoura">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Bolo de Cenoura</h5>
+                        <p class="card-text small text-muted">Fofinho com nozes e generosa calda de chocolate artesanal.</p>
+                        <a href="#" class="btn btn-primary mt-auto w-100">Pedir</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card h-100 shadow-sm text-center">
+                    <img src="imgs/cookie.png" class="card-img-top" alt="Cookie">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Cookie</h5>
+                        <p class="card-text small text-muted">Bordas crocantes e centro macio com gotas de chocolate.</p>
+                        <a href="#" class="btn btn-primary mt-auto w-100">Pedir</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card h-100 shadow-sm text-center">
+                    <img src="imgs/bolodemorango.webp" class="card-img-top" alt="Bolo Supremo">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Bolo Supremo</h5>
+                        <p class="card-text small text-muted">Massa úmida de cacau com recheio e cobertura de brigadeiro.</p>
+                        <a href="#" class="btn btn-primary mt-auto w-100">Pedir</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <p class="mb-0"> 2026 Cafeteria Melloni - Feito com muito ❤️ e cafeína.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
